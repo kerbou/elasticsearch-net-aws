@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 
 namespace Elasticsearch.Net.Aws
 {
-    internal static class SignV4Util
+    public static class SignV4Util
     {
         static readonly char[] _datePartSplitChars = { 'T' };
 
